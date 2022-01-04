@@ -8,6 +8,6 @@ function palabraMasLarga(paramsArray) {
   console.log(palabra);
 }
 
-const strings = ["hola", "como estas", "adiódsadasda"];
+const strings = ["hola", "como estas", "adiós"];
 
 palabraMasLarga(strings);

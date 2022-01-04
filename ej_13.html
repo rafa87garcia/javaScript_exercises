@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Set the background color of a paragraph</title>
+</head>
+
+<body>
+</body>
+<script type="text/javascript">
+
+    const dogs = [
+        { name: "balto", type: "chihuaha" },
+        { name: "loli", type: "puddle" },
+    ];
+
+    const body = document.body;
+
+    for (const iterator of dogs) {
+        let h1 = document.createElement("h1");
+        h1.innerText = `${iterator.name} es un ${iterator.type}`;
+        body.appendChild(h1);
+    }
+
+</script>
+
+</html>
